@@ -1,0 +1,85 @@
+.slick-arrow {
+    
+    
+    font-size: 0;
+    border:0px;
+    background-color: #fff;
+    &:active, :focus, :visited, :focus-visible {
+            outline:0px;
+        }
+    &.slick-prev {
+        background: url('../../img/chevron-left-solid.svg');
+        width: 20px;
+        
+        height: 20px;
+        opacity: 0.5;
+        //background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+    bottom:60%;
+    left:40px;
+        @include media-breakpoint-up(lg) { 
+        left: -40px;
+        }
+
+        
+    }
+    &.slick-next {
+        background: url('../../img/chevron-right-solid.svg');
+        width: 20px;
+        height: 20px;
+        //background-size: cover;
+        opacity: 0.5;
+        background-repeat: no-repeat; 
+        margin-left:50px;
+        position: absolute;
+        bottom:60%;
+        right:20px;
+        @include media-breakpoint-up(lg) { 
+         
+         right:-20px;
+        }
+    }
+}
+
+.slick-dots {
+    position: absolute;
+    bottom:-50px;
+    right:100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    list-style: none;
+    & li {
+        float:left;
+        margin: 0 10px;
+        & button {
+        background: url('../img/slider-dot.svg');
+        font-size: 0;
+        border:0px;
+        background-color: #fff;
+        
+        width:23px;
+        height:23px;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        }
+        &.slick-active {
+            & button {
+        background: url('../img/slider-dot-active.svg');
+        font-size: 0;
+        border:0px;
+        background-color: #fff;
+        
+        width:50px;
+        height:23px;
+        background-size: cover;
+        background-repeat: no-repeat; 
+        }
+        }
+    }
+}
+
+
+.slider-caption {
+ 
+}

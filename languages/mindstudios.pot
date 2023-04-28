@@ -1,0 +1,75 @@
+# Copyright (C) 2021 mindstudios.ch
+# This file is distributed under the All rights reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: mindstudios 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/mindstudios\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-03T14:19:22+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: mindstudios\n"
+
+#. Theme Name of the theme
+msgid "mindstudios"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author of the theme
+#. Author URI of the theme
+msgid "mindstudios.ch"
+msgstr ""
+
+#. Description of the theme
+msgid "Mind Studios ist eine Marke der Crome Communications AG."
+msgstr ""
+
+#: functions.php:26
+msgid "Primary"
+msgstr ""
+
+#: functions.php:27
+msgid "Service"
+msgstr ""
+
+#: functions.php:28
+msgid "Footer"
+msgstr ""
+
+#: template-parts/block-accordion.php:27
+msgctxt "content"
+msgid "No content found, add some."
+msgstr ""
+
+#: template-parts/block.php:2
+msgctxt "theme"
+msgid "Whoops, this block doesn't have a template yet!"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Keine Ergebnisse gefunden."
+msgstr ""
+
+#: template-parts/header-404.php:8
+msgctxt "404"
+msgid "Die gewünschte Seite konnte nicht gefunden werden."
+msgstr ""
+
+#: template-parts/header-archive.php:43
+#: template-parts/header-page.php:32
+msgctxt "page-header"
+msgid "Invalid media type"
+msgstr ""
+
+#: template-parts/header-search.php:8
+msgid "Suchen"
+msgstr ""
+
+#: template-parts/header.php:2
+msgctxt "theme"
+msgid "Whoops, this post type doesn't have a header template yet!"
+msgstr ""

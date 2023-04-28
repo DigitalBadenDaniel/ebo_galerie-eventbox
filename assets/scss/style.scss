@@ -1,0 +1,42 @@
+//Test
+@import "functions";
+@import "templates/color";
+@import "fonts";
+@import "variables";
+@import "mixins";
+
+
+@import "templates/aos";
+@import "templates/navoverlay";
+@import "templates/navbar";
+@import "templates/cf7";
+@import "templates/dropdown";
+@import "templates/slick";
+
+@import "_vendor/bootstrap/bootstrap";
+@import "_vendor/hamburgers/hamburgers";
+@import "_vendor/fancybox/fancybox";
+//Include here any theme specific files
+@import "components/aspect";
+@import "components/block";
+@import "components/grid";
+@import "components/image";
+@import "templates/custom";
+@import "templates/slicktemplate";
+//@import "templates/masonry";
+@import "templates/gravity";
+@import "fonts";
+@import "templates/txt";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+

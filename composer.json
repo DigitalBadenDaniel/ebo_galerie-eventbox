@@ -1,0 +1,26 @@
+{
+    "name": "mindstudios/base",
+    "type": "wordpress-theme",
+    "description": "mindstudios is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.",
+    "keywords": [
+        "WordPress",
+        "Themes"
+    ],
+    "homepage": "https://www.mindstudios.ch",
+    "authors": [
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/Automattic/_s/graphs/contributors"
+        },
+        {
+            "name": "Mindstudios",
+            "homepage": "https://www.mindstudios.ch"
+        }
+    ],
+    "require-dev": {
+        "wp-cli/i18n-command": "^2.2"
+    },
+    "scripts": {
+        "make-pot": "wp i18n make-pot . languages/mindstudios.pot --domain=mindstudios --slug=mindstudios"
+    }
+}

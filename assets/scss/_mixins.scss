@@ -1,0 +1,28 @@
+/**
+Forces the child of the element to be in a specific aspect ratio.
+img, video, iframe, etc. generally need a wrapper element with the mixin applied for this to work.
+
+Usage:
+
+.16-9 {
+  @include aspect-ratio(16, 9);
+}
+*/
+@mixin aspect-ratio($x, $y) {
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    padding-bottom: #{100% / ($x / $y)};
+  }
+
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="3" viewBox="0 0 56 3">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="56" height="3" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Wiederholungsraster_1" data-name="Wiederholungsraster 1" clip-path="url(#clip-path)">
+    <g transform="translate(-1110 -1972.5)">
+      <line id="Linie_1" data-name="Linie 1" x2="56" transform="translate(1110 1974)" fill="none" stroke="#4a586c" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

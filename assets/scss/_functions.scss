@@ -1,0 +1,15 @@
+/**
+SCSS lacks a proper power function.
+This allows for calculating e.g. 2^8
+ */
+@function pow($number, $exponent) {
+  $value: 1;
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  }
+
+  @return $value;
+}

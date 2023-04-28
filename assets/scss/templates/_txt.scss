@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 17.07.2021, 16:04:03
+    Author     : danielhenrich
+*/
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+    color:$color1;
+    //text-transform: uppercase;
+}
+
+p, .p, body {
+    color:$color4;
+}
+
+.leadin {
+    font-size: 24px;
+    color:$color1;
+    line-height: 1.1;
+    @include media-breakpoint-up(md) {
+    font-size: 36px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: $headings-margin-bottom;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: 1.1;
+  color: $headings-color;
+}
+
+h1, .h1 { 
+    @include font-size($h2-font-size);
+    
+    @include media-breakpoint-up(md) {
+    @include font-size($h1-font-size)
+    }
+}
+h2, .h2 { 
+    @include font-size($h3-font-size); 
+    
+    @include media-breakpoint-up(md) {
+    @include font-size($h2-font-size)
+    }
+}
+h3, .h3 { 
+    @include font-size($h4-font-size); 
+    @include media-breakpoint-up(md) {
+    @include font-size($h3-font-size)
+    }
+}
+h4, .h4 { @include font-size($h4-font-size); }
+h5, .h5 { @include font-size($h5-font-size); }
+h6, .h6 { @include font-size($h6-font-size); }

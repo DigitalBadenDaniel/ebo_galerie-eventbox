@@ -1,0 +1,57 @@
+
+$color1 : #B81653;
+$color2 : #AAB816;
+$color3 : #BBC2BF;
+$color4 : #566966;
+$color5 : #838B93;
+$color6 : #ECECEC;
+$color7 : #DCE2EB;
+$color8 : #F6F7F6;
+$color9 : #c95d7d;
+$white : #ffffff;
+$c7:c7;
+
+
+$colornumber: ($color1, $color2, $color3, $color4, $color5, $color6, $color7, $color8, $color9);
+@for $icolor from 1 through 9 {
+  .color-#{$icolor} {
+    color: nth($colornumber, $icolor);
+  }
+  .bg-color-#{$icolor} {
+    background-color: nth($colornumber, $icolor);
+  }
+}
+
+.bg-color-1-10 {background-color: transparentize($color1, 0.9);}
+.bg-color-1-20 {background-color: transparentize($color1, 0.8);}
+.bg-color-1-40 {background-color:transparentize($color1, 0.6);}
+.bg-color-1-60 {background-color:transparentize($color1, 0.4);}
+.bg-color-1-80 {background-color:transparentize($color1, 0.2);}
+
+.bg-color-2-10 {background-color: transparentize($color2, 0.9);}
+.bg-color-2-20 {background-color: transparentize($color2, 0.8);}
+.bg-color-2-40 {background-color: transparentize($color2, 0.6);}
+.bg-color-2-60 {background-color: transparentize($color2, 0.4);}
+.bg-color-2-80 {background-color: transparentize($color2, 0.2);}
+
+
+.bg-color-3-20 {background-color: transparentize($color3, 0.8);}
+.bg-color-3-40 {background-color: transparentize($color2, 0.6);}
+.bg-color-3-60 {background-color: transparentize($color2, 0.4);}
+.bg-color-3-80 {background-color: transparentize($color2, 0.2);}
+
+
+
+
+.color-white {
+    color:#ffffff;
+    & * {
+    color:#ffffff; 
+    }
+}
+.color-black {
+    color:#000000;
+    & * {
+    color:#000000; 
+    }
+}

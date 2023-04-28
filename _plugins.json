@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Wordfence Security – Firewall & Malware Scan",
+    "slug": "wordfence",
+    "required": true
+  },
+  {
+    "name": "Advanced Custom Fields Pro",
+    "slug": "advanced-custom-fields-pro",
+    "required": true
+  },
+  {
+    "name": "Classic Editor",
+    "slug": "classic-editor",
+    "required": false
+  },
+  {
+    "name": "Disable Blogging",
+    "slug": "disable-blogging",
+    "required": false
+  },
+  {
+    "name": "EWWW Image Optimizer",
+    "slug": "ewww-image-optimizer",
+    "required": true
+  },
+  {
+    "name": "Rank Math SEO",
+    "slug": "seo-by-rank-math",
+    "required": false
+  },
+  {
+    "name": "UpdraftPlus WordPress Backup Plugin",
+    "slug": "updraftplus",
+    "required": true
+  },
+  {
+    "name": "Enable Media Replace",
+    "slug": "enable-media-replace",
+    "required": false
+  },
+  {
+    "name": "reGenerate Thumbnails Advanced",
+    "slug": "regenerate-thumbnails-advanced",
+    "required": true
+  },
+  {
+    "name": "WP Fastest Cache",
+    "slug": "wp-fastest-cache",
+    "required": false
+  },
+  {
+    "name": "MC4WP: Mailchimp for WordPress",
+    "slug": "mailchimp-for-wp",
+    "required": false
+  },
+  {
+    "name": "Cookie Notice & Compliance for GDPR / CCPA",
+    "slug": "cookie-notice",
+    "required": true
+  }
+]

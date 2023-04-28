@@ -1,0 +1,13 @@
+@import "_vendor/bootstrap/functions";
+@import "variables";
+@import "_vendor/bootstrap/variables";
+@import "_vendor/bootstrap/mixins";
+@import "functions";
+@import "mixins";
+
+body#tinymce.wp-editor {
+  @import "_vendor/bootstrap/reboot";
+  @import "_vendor/bootstrap/type";
+  @import "_vendor/bootstrap/buttons";
+  @import "_vendor/bootstrap/tables";
+}

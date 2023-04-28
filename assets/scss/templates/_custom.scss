@@ -1,0 +1,460 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 08.05.2021, 14:01:39
+    Author     : danielhenrich
+*/
+button:active, button:focus {
+    outline: 0;
+}
+
+.mb-180 {
+    margin-bottom: 120px;
+    @include media-breakpoint-up(md) {
+     margin-bottom:120px
+    }
+
+}
+
+a, a * {
+    cursor:pointer;
+    pointer-events: auto;
+}
+p {
+    font-family:'Open Sans', sans-serif;
+}
+
+body {
+    max-width: 2800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+.h-95 {
+    height: 95% !important;
+}
+
+
+
+
+input, textarea {
+    overflow: visible;
+    width: 100%;
+    border: 0;
+    background-color: #F1F2F3;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans';
+}
+
+body {
+    color:#000;
+}
+
+.gradient-booking {
+    background: rgb(237,190,208);
+background: -moz-linear-gradient(55deg, rgba(237,190,208,0.06) 0%, rgba(167,189,53,0.06068364845938379) 100%);
+background: -webkit-linear-gradient(55deg, rgba(237,190,208,0.06) 0%, rgba(167,189,53,0.06068364845938379) 100%);
+background: linear-gradient(55deg, rgba(237,190,208,0.06) 0%, rgba(167,189,53,0.06068364845938379) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#edbed0",endColorstr="#a7bd35",GradientType=1);
+}
+
+.gradient-booking-20 {
+    background: rgb(237,190,208);
+background: -moz-linear-gradient(55deg, rgba(237,190,208,0.2) 0%, rgba(167,189,53,0.2) 100%);
+background: -webkit-linear-gradient(55deg, rgba(237,190,208,0.2) 0%, rgba(167,189,53,0.2) 100%);
+background: linear-gradient(55deg, rgba(237,190,208,0.2) 0%, rgba(167,189,53,0.2) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#edbed0",endColorstr="#a7bd35",GradientType=1);
+}
+
+.bg-product {
+    background-color:#ececec94;
+}
+
+
+.btn-eb, .fotocdn-submit {
+     display: inline-block;
+    width: auto;
+    color:#fff;
+    background-color: $color2!important;
+    padding:5px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    &:hover {
+      color:#fff;
+      opacity: 0.7;
+    }
+}
+
+.btn-eb-light {
+    
+    width: auto;
+    color:#fff;
+    background-color: $color4!important;
+    padding:5px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    &:hover {
+      color:#fff;
+      opacity: 0.7;
+    }
+}
+
+
+
+.fotobox-product {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+    width:100%;
+    &:hover {
+        box-shadow: 0px -1px 11px 0px rgb(0 0 0 / 20%);
+    }
+}
+
+.site-header {
+    z-index: 999;
+}
+
+.home-header {
+    background-size: cover!important; 
+    position: relative;
+    margin-top:0;
+    @include media-breakpoint-up(lg) {
+    margin-top: -111px;
+    }
+}
+
+ul.check-list {
+   
+  //list-style-image: url("../../img/checkmark.svg");
+  list-style:none;
+      padding-inline-start: 43px;
+         // margin-left: 12px;
+     & li {
+      line-height: 2;
+    position: relative;
+    font-size: 18px;
+   // margin-left: 20px;
+    &::before {
+	content: ' ' !important;
+	background-image: url("../../img/checkmark2.svg");
+	
+	margin: 0 5px -4px -44px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 20px;
+	width: 37px;
+            top: -4px;
+}
+    
+  }
+}
+
+.small-underline{
+    position: relative;
+    color:$color4;
+    margin-bottom: 2em;
+    &::after {
+    content: "";
+    height: 4px;
+    width: 100px;
+    background: $color2;
+    position: absolute;
+    left: 0px;
+    bottom: -25px;
+}
+}
+
+.small-underline-center{
+    position: relative;
+    color:$color4;
+    margin-bottom: 2em;
+    &::after {
+    content: "";
+    height: 4px;
+    width: 100px;
+    background: $color2;
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: -20px;
+}
+}
+.border-radius {
+    border-radius: 15px;
+}
+
+.img-bg {
+    background-image: url("../../img/bg-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:30px 0px;
+    @include media-breakpoint-up(xl) { 
+    //background-size: 100% calc(100% - 89px);
+    //padding:0px;
+    }
+}
+
+
+/**ProvenExpert**/
+#pe_stars>span:before {
+    color: #f6bb03!important;
+}
+
+#pe_rating.pe_g .pe_u {
+    font-size: 1.1rem!important;
+    color: $color4!important;
+}
+
+ti-widget.ti-goog .ti-rating-text, .ti-widget.ti-goog .ti-rating-text strong, .ti-widget.ti-goog .ti-rating-text strong a, .ti-widget.ti-goog .ti-rating-text strong span, .ti-widget.ti-goog .ti-rating-text span strong, .ti-widget.ti-goog .ti-rating-text span, .ti-widget.ti-goog .ti-footer, .ti-widget.ti-goog .ti-footer strong, .ti-widget.ti-goog .ti-footer span, .ti-widget.ti-goog .ti-footer strong a {
+   font-size: 1.1rem!important;
+    color: $color4!important;
+}
+
+.ti-widget.ti-goog .ti-footer {
+    margin-top: 30px!important;
+}
+
+.ti-widget.ti-goog .ti-widget-container .ti-name {
+   color: $color4!important;
+}
+
+.ti-widget.ti-goog .ti-review-content {
+    color: $color4!important;
+}
+
+/**END Proven Expert***/
+
+.block-city {
+     background-image: url("../../img/bg-city.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:30px 0px;
+
+    @include media-breakpoint-up(lg) {
+     padding:80px 0px;
+    }
+    & .city-link {
+        color:$color4;
+        font-weight: bold;
+        text-decoration: none;
+        line-height: 1.8rem;
+    }
+}
+
+
+.overlap-img {
+    position:relative; 
+    margin-top:0px;
+    @include media-breakpoint-up(lg) {
+    margin-top:-200px;
+    }
+
+}
+
+.block-2-teaser {
+    background-image: url("../../img/bg-img.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding:60px 0px;
+    @include media-breakpoint-up(xl) { 
+    background-size: 100% calc(100% - 200px);
+    padding:60px;
+    }
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.img-hover {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+    &:hover {
+       transform: scale(1.2); 
+    }
+}
+
+#h5vp_player .plyr .plyr__control--overlaid {
+    background: $color2!important;
+}
+.plyr--full-ui input[type=range] {
+    color: $color2!important;
+}
+.h5vp_player {
+    border-radius: 15px;
+}
+
+.no-link {
+   & *:hover {
+        text-decoration: none;
+    }
+}
+
+.no-link:hover {
+        text-decoration: none;
+        cursor:pointer;
+    }
+
+    .ti-rating-text {
+        display:none;
+    }
+    
+    .vergleichs-headline {
+        font-size: 1.4rem;
+        font-weight: bold;
+        @include media-breakpoint-up(lg) { 
+        font-size: 2.3125rem;
+        }
+     }
+     
+        .vergleichs-border {
+            border: 0.5px solid #ccc;
+            @include media-breakpoint-up(lg) { 
+            border-left: 0.5px solid #ccc;
+            border-top: 0.5px solid #ccc;
+            border-bottom: 0px;
+            border-right: 0px;
+        }
+        }
+        
+        
+        .vergleichs-border-first {
+            border-top: 0.5px solid #ccc;
+        }
+    
+        
+       .confetti-button.animate:before {
+  display: block;
+  animation: topBubbles ease-in-out 0.75s forwards;
+}
+.confetti-button.animate:after {
+  display: block;
+  animation: bottomBubbles ease-in-out 0.75s forwards;
+}
+@keyframes 
+topBubbles {  0% {
+ background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+}
+ 50% {
+ background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+}
+ 100% {
+ background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+ background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+}
+}
+@keyframes 
+bottomBubbles {  0% {
+ background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+}
+ 50% {
+ background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+}
+ 100% {
+ background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+ background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+}
+}
+
+.block-accordion {
+    & button.collapsed {
+       background: url('../../img/plus-solid.svg');
+       background-size:15px;
+       background-repeat: no-repeat;
+       background-position: right 20px center;
+    }
+    & button {
+       background: url('../../img/minus-solid.svg');
+       background-size:15px;
+       background-repeat: no-repeat;
+       background-position: right 20px center;
+    }
+}
+
+.usp-icon {
+    height: 100px;
+}
+
+#sticky {
+    transition: all 0.5s ease-in-out;
+    top:0;
+}
+.sticky {
+    position: fixed!important;
+    right: 0;
+    left: 0;
+    background-color: $white;
+     transition: all 0.5s ease-in-out;
+     top: 0px!important;
+
+     @include media-breakpoint-up(xl) {
+     top: -37px!important;
+     }
+     
+}
+
+.desktop-nav  .dropdown-menu > li.active a {
+    color: #B81653 !important;
+}
+.desktop-nav  .dropdown-menu > li a {
+    color: #838B93 !important;
+}
+
+.desktop-service .nav-link {
+    color: #eee;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+#service-sticky {
+ height:100%;   
+  transition: all 0.5s ease-in-out;
+}
+
+.service-sticky {
+   height:0%;
+}
+
+.fotocdn-integrator .fotocdn-guestbox input.fotocdn-submit {
+  
+    background: none!important;
+    background: none!important;
+    background: none!important;
+    filter: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    background-image: none!important;
+    -webkit-box-shadow: 0!important;
+    -moz-box-shadow: 0px!important;
+    box-shadow: 0px 3px 0px 0px #aab816!important;
+    -webkit-border-radius: 0px!important;
+    -moz-border-radius: 0px!important;
+    -ms-border-radius: 0px!important;
+    border-radius: 0!important;
+    border: 0px!important;
+    padding: 0!important;
+    font-size: 16px!important;
+    line-height: 1.5!important;
+    color: #fff!important;
+    margin: 0!important;
+}
+
+#stickyhelp {
+    
+    display:none;
+}
+.stickyhelp {
+    height:200px;
+    width:100%;
+    display:block;
+  
+}

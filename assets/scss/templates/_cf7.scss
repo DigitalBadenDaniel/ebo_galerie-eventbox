@@ -1,0 +1,31 @@
+
+
+.wpcf7-list-item input[type="checkbox"] {
+    display:none;
+}
+
+
+input[type=checkbox]+.wpcf7-list-item-label:before {
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    border: 1px solid $color1;
+    background-color: #fff;
+    display: block;
+    content: "";
+    float: left;
+    margin-right: 13px;
+    left: 0;
+    margin-top: 4px;
+    position: absolute;
+}
+
+input[type=checkbox]:checked+.wpcf7-list-item-label:before {
+    box-shadow: inset 0px 0px 0px 3px #fff;
+    background-color: $color1;
+}
+
+.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 2em;
+}
